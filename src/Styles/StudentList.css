@@ -1,0 +1,46 @@
+/* src/Styles/StudentList.css */
+.student-list-container {
+    padding: 20px;
+    background-color: #f5f7fa;
+    min-height: 100vh;
+  }
+  
+  .student-list-container h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .student-list-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .student-list-container th, .student-list-container td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .student-list-container th {
+    background-color: #ddd;
+    font-weight: bold;
+  }
+  
+  .student-list-container td {
+    background-color: #fff;
+  }
+  
+  .student-list-container td, .student-list-container th {
+    font-size: 16px;
+  }
+  
+  .student-list-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .student-list-container tbody tr:hover {
+    background-color: #ddd;
+  }
+  
